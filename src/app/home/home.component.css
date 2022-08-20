@@ -1,13 +1,36 @@
-#Home{
-    margin-top: 2em;
+.card-body>a{
+    background-color: #24799e;
+    position: absolute; 
+    bottom: 0;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    padding: 1rem 2rem;
 }
-.text0 span{
-    color:yellowgreen;
-    font-size: 1.2rem;
-    font-weight: 600;
-    z-index: 2;
-    position:absolute;
+.card-body>h3{
+    color: #2A2D72;
 }
-picture span :nth-child(2){
-    
+
+
+
+
+@media only screen and (min-width: 1024px){
+    #textoAlpic{
+        margin: 0 18rem;
+    }
 }
+@media only screen and (max-width: 1024px){
+    #textoAlpic{
+        margin: 0 15rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    #textoAlpic{
+        margin: 0 9rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    #textoAlpic{
+        margin: 0 2rem;
+    }
+} 

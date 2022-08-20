@@ -2,13 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: content-box;
-    font-family: 'roboto';
+    max-width: 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+
 section [id]{
     scroll-margin-top:8rem;
+}
+.container{
+    --bs-gutter-x:0;
 }
