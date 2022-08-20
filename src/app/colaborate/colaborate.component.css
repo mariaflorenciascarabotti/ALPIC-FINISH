@@ -1,0 +1,14 @@
+#button{
+    background-color: #24799e; 
+    color:#fff; 
+    height: 15rem; 
+    /* border-radius: 2rem; */
+    font-size: 1.5rem;
+}
+#button:hover{
+    box-shadow: 5px 10px 18px #24799e; 
+
+}
+#Colaborar{
+    scroll-margin-top: 4rem;
+}

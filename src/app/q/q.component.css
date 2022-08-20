@@ -1,9 +1,40 @@
-h3{
-    color: #09DDCC;
-    font-size: 1.2rem;
+
+.accordion {
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-color: #fff;
+    --bs-accordion-bg:  #2a2d72;
+    --bs-accordion-border-color:  #2a2d72;
+    
 }
-.container-xl{
-    font-size: .7rem;
-    padding: 8%;
-    width: 70vw;
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.accordion-item .accordion-button{
+    width: 95%;
+}
+@media only screen and (max-width: 650px){
+    .accordion-item .accordion-button{
+        width: 90%;
+    }
+    #contenedorPreguntas{
+        margin: 1rem;
+    }
+}
+@media only screen and (min-width: 650px){
+    .accordion-item .accordion-button{
+        width: 90%;
+    }
+    #contenedorPreguntas{
+        margin: 5rem 3rem 3rem;
+        padding: 2rem 0;
+    }
+}
+h3{
+    color: #2DC2BD;
+    font-size: 1.3rem;
+}
+
+#preguntasFrecuentes{
+    scroll-margin-top: 6rem;
 }
